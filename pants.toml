@@ -4,6 +4,12 @@ backend_packages = [
     "pants.backend.python",
 ]
 
+[source]
+root_patterns = [
+    "packages/",
+    "tasks/",
+]
+
 [tailor]
 ignore_adding_targets = ["src/python/app:debug"]
 ignore_paths = ["src/python/wip/BUILD"]
