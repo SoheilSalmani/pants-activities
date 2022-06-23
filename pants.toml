@@ -3,3 +3,7 @@ pants_version = "2.13.0a0+git306dd68b"
 backend_packages = [
     "pants.backend.python",
 ]
+
+[tailor]
+ignore_adding_targets = ["src/python/app:debug"]
+ignore_paths = ["src/python/wip/BUILD"]
