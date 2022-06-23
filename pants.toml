@@ -7,3 +7,6 @@ backend_packages = [
 [tailor]
 ignore_adding_targets = ["src/python/app:debug"]
 ignore_paths = ["src/python/wip/BUILD"]
+
+[update-build-files]
+formatter = "yapf"
