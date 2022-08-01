@@ -1,13 +1,14 @@
 [GLOBAL]
-pants_version = "2.13.0a0+git306dd68b"
+pants_version = "2.12.0"
 backend_packages = [
     "pants.backend.python",
+    "pants.backend.python.lint.flake8",
 ]
 
 [source]
 root_patterns = [
-    "packages/",
-    "tasks/",
+    "/packages",
+    "/tasks",
 ]
 
 [tailor]
